@@ -1,0 +1,19 @@
+name: flutter_clean_application
+description: A plugin that provides core elements for implementing the application layer of a Clean Architecture
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  # Layers
+  flutter_clean_domain:
+    git:
+      url: git@github.com:fabriziocacicia/flutter_clean_domain.git
+      ref: main
+
+
+dev_dependencies:
+  # Linting and Code analysis
+  effective_dart: ^1.3.1
