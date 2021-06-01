@@ -1,14 +1,18 @@
-#TODO: set the package name
-name: my_dart_package
-#TODO: set the package description
-description: A starting point for Dart libraries or applications.
-version: 0.0.1
+name: flutter_clean_application
+description: A plugin that provides core elements for implementing the application layer of a Clean Architecture
+version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: ">=2.18.0 <3.0.0"
 
-# dependencies:
+dependencies:
+  # Layers
+  flutter_clean_domain:
+    git:
+      url: git@github.com:fabriziocacicia/flutter_clean_domain.git
+      ref: main
+
 
 dev_dependencies:
   # Linting and Code analysis
