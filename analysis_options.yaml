@@ -1,5 +1,7 @@
-include: package:flutter_lint_rules/apps.yaml
+include: package:dart_lint_rules/packages.yaml
 
 analyzer:
-  strong-mode:
-    implicit-dynamic: true
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
