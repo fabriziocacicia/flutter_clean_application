@@ -14,7 +14,7 @@ dependencies:
   flutter_clean_domain:
     git:
       url: git@github.com:fabriziocacicia/flutter_clean_domain.git
-      ref: v1.2.0
+      ref: v1.3.0
 
 
 dev_dependencies:
