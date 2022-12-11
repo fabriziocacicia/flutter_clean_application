@@ -7,6 +7,9 @@ environment:
   sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
+  equatable: ^2.0.5
+  meta: ^1.8.0
+
   # Layers
   flutter_clean_domain:
     git:
